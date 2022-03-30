@@ -1,0 +1,676 @@
+body{
+  border: 1px solid blue;
+  width: 100%;
+  height: 3300px;
+}
+
+.nav{
+  border: 1px dotted pink;
+}
+
+.nav-link{
+  border-radius: 20px;
+}
+
+.dropdown-menu{
+  border-radius: 15px;
+}
+
+.dropdown-item{
+  border-radius: 10px;
+}
+
+.iconsMenu{
+  border: 1px dotted blue; 
+}
+
+.conteneurUn{
+  border: 1px dotted greenyellow;
+  background-color: #FAD7A0;
+  width: 90%;
+  height: 650px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.lancerVous{
+color: #953C53;
+margin-left: 20px;
+}
+
+.imgInt{
+  border: 1px dotted gray;
+  width:300px;
+  height: auto;
+  margin-left: 50px;
+  contain:content;
+}
+
+.textInt{
+  border: 1px dotted silver;
+  background-color: white;
+  width: 280px;
+  height: 350px;
+  margin-block-start: 50px;
+  text-align: center;
+  /*contain: content;*/
+}
+/*.textSpon{
+  margin-left: 400px;*/
+
+.carousel-control-prev{
+width: 30px;
+height: 30px;
+border-radius: 20px;
+background-color: silver;
+margin-top: auto;
+margin-bottom: auto;
+contain: content;
+}
+
+.carousel-control-next{
+width: 30px;
+height: 30px;
+border-radius: 20px;
+background-color: silver;
+margin-top: auto;
+margin-bottom: auto;
+contain: content;
+}
+
+.conteneurHub{
+  border: 1px dotted green;
+  width: 90%;
+  height: 100px;
+  margin: auto;
+}
+
+.textBusin{
+  font-size:xx-large;
+  
+}
+
+.vueMensuel{
+  border: 1px dotted violet;
+  width: 500px;
+  height: 100px;
+  margin-left:800px;
+  contain: content;
+}
+.zero{
+  font-size: xx-large;  
+}
+
+.textDessous{
+  font-size: 14px;
+  color: gray;
+}
+
+.conteneurUn, .imgInt, .textInt{
+  border-radius: 30px;
+}
+
+.buttonInt{
+  border-radius: 15px;
+  width: 200px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.conteneurPerfor{
+  border: 1px solid #D0D3D4;
+  border-radius: 20px;
+  background-color: #EAEDED;
+  width: 90%;
+  height: 1300px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  contain:content;
+  justify-content: space-around;
+}
+
+.titrePerform{
+  margin-right: 20px;
+}
+
+.borderRad{
+  border-radius: 20px;
+}
+
+.vueEnsemb{
+  border: 1px dotted burlywood;
+  background-color: white;
+  border-radius: 20px;
+  width: 400px;
+  height: 500px;
+}
+
+.impression{
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #D0D3D4;
+  width: 350px;
+  height: 100px;
+  padding: 20px;    
+} 
+
+.vueStat2{
+  border: 1px dotted mediumvioletred;
+  width: 400px;
+  height: 500px;
+  margin-top: 140px;
+  contain: content;
+}
+
+.buttonInt1{
+  border-radius: 25px;
+  width: 150px;
+}
+
+.boutonText{
+margin-top: 80px;
+border-radius: 30px;
+width: 180px;
+height: 50px;
+cursor: pointer;
+}
+
+.titreInt{
+  margin-left: 10px;
+}
+
+.campDeroul{
+  width: 170px;
+  border-radius: 30px;
+}
+
+.rectInt{
+  border: 1px dotted whitesmoke;
+  box-shadow: 2px 2px 2px #D0D3D4;
+  border-radius: 15px;
+  width: 100px;
+  height: 80px;
+}
+
+.taille0{
+  font-size: xx-large;
+}
+
+.rectInt2{
+  border: 1px dotted whitesmoke;
+  box-shadow: 2px 2px 2px #D0D3D4;
+  border-radius: 15px;
+  width: 350px;
+  height: 100px;
+}
+
+.vueStat3{
+  border: 1px dotted mediumvioletred;
+  width: 400px;
+  height: 400px;
+  margin-top: 140px;
+}
+
+.conteneurRessources{
+  border: 1px dotted crimson;
+  border-radius: 20px;
+  width: 90%;
+  height: 500px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bouton{ 
+  background-image: url('https://cdn.pixabay.com/photo/2017/01/14/10/57/woman-1979272_960_720.jpg'); 
+  background-size: cover;
+  width: 250px; 
+  height: 160px; 
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}
+
+.bouton1{ 
+  background-image: url('https://cdn.pixabay.com/photo/2019/12/13/07/30/red-4692428_960_720.jpg'); 
+  background-size: cover;
+  width: 250px; 
+  height: 160px; 
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}
+
+.bouton2{ 
+  background-image: url('https://img.freepik.com/photos-gratuite/couple-heureux-dans-sweats-capuche-elegants-pour-tournage-plein-air-hiver_53876-105545.jpg?w=740'); 
+  background-size: cover;
+  width: 250px; 
+  height: 160px; 
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}
+
+.bouton3{ 
+  background-image: url('https://img.freepik.com/photos-gratuite/beignets-colores-savoureux_144627-18315.jpg?w=740'); 
+  background-size: cover;
+  width: 250px; 
+  height: 160px; 
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}  
+
+.bouton4{ 
+  background-image: url('https://img.freepik.com/photos-gratuite/deux-filles-joyeuses-passent-joyeusement-du-temps-ensemble-conduire-voiture-cabriolet-dans-rues-ville-plein-air_574295-3237.jpg?w=740'); 
+  background-size: cover;
+  width: 250px; 
+  height: 160px; 
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}
+
+.bouton5{ 
+  background-image: url('https://img.freepik.com/photos-gratuite/etudiant-etudiant-brainstorming-analysant-concept-campus_53876-14034.jpg?w=740'); 
+  background-size: cover;
+  width: 250px; 
+  height: 160px; 
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}
+
+.boutonHover:hover{
+  filter: brightness(70%);
+  background-color: white;
+}
+
+.conteneurBesoinAide{
+  border: 1px dotted crimson;
+  border-radius: 20px;
+  width: 90%;
+  height: 200px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+  
+.rectBleu:focus{
+  border: 3px solid rgb(102, 157, 230);
+}
+
+.conteneurP2{
+  border: 1px dotted crimson;
+  width: 80%;
+  height: 50px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.conteneurP2Pointi-Bout{
+  border: 1px dotted black;
+  border-radius: 20px;
+  width: 80%;
+  height: 650px;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+.conteneurPointi{
+  border: 1px solid green;
+  height: 100px;
+}
+
+.boutonChoisir{
+  border: 1px solid pink;
+  width: 200px;
+  height: 50px;
+  margin-top: auto;
+  margin-right: 15px;
+  margin-bottom: auto;
+}
+
+.boutonDroitP2In{
+  border-radius: 10px;
+ width: 100px;
+ height: 30px;
+ margin-top: 50px;
+ margin-right: 80px;
+}
+
+.pointillés{
+  border-radius: 20px;
+  background-image: url(https://img.icons8.com/plumpy/344/ellipsis.png);
+  background-size: cover;
+  color:purple ;
+  background-color: #F8F9F9;
+  width: 20px;
+  height: 30px;
+  margin-top: 50px;
+  margin-left: 80px;
+  contain: content;
+}
+
+.rectIntGlis1{
+  width: 350px;
+  height: 500px;
+  border-radius: 7px;
+  background-color: #d1d6d8;
+  margin-top: 20px;
+}
+
+.rectIntGlisDashed{
+  border: 2px dashed #BDC3C7;
+  border-radius: 7px;
+  width: 300px;
+  height: 450px;
+}
+
+.flecheInt{
+  margin-top: 150px;
+}
+
+.rectIntGlis2{
+  width: 450px;
+  height: 500px;
+  border-radius: 5px;
+  border: 1px solid coral;  
+  margin-top: 20px;
+}
+
+.ajouTitre{
+  color:grey;
+}
+
+.ligne{
+  border: 1px solid #B3B6B7;
+}
+
+.TextIntCommentaire{
+overflow: scroll;
+width: 100%;
+height: 50px;
+outline-style: none;
+color:grey;
+}
+
+.TextIntCommentaire2{
+  width: 100%;
+  height: 30px;
+  outline-style: none;
+  color:grey;
+  margin-top: 30px;
+  }
+
+.ligne2{
+  border: 1px solid #B3B6B7;
+  height: 100px;
+  }
+
+.textSousFleche{
+  text-align: center;
+}
+
+.imgFlecheHaut{
+  border-radius: 20px;
+  background-image: url(https://img.icons8.com/material-outlined/344/circled-up-2.png);
+  background-size: cover;
+  color:purple ;
+  background-color: #F8F9F9;
+  width: 30px;
+  height: 30px;
+  contain: content;
+}
+
+.p3Container{
+  border: 1px solid rgb(96, 207, 21);
+  width: 350px;
+  height: 1700px;
+  overflow: scroll;
+}
+
+.p3Gestion{
+  font-size: small;
+}
+
+.p3Campagne{
+  font-size: xx-large;
+  border: 1px dotted magenta;
+  width:100%;
+  height: 50px;
+  contain: content;
+}
+
+.p3PasserCampagne{
+  font-size: small;
+  padding-left: 1200px;
+}
+
+.p3imgInterro{
+  width: 30px;
+}
+
+.p3NomCampagne{
+font-size: small;
+}
+
+.p3ButtonNotoMarq{
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  background-color: white;
+  width: 99%;
+  height: 50px;
+  text-align:left;
+}
+
+.p3containerSelection{
+  border: 1px solid green;
+  width: 1200px;
+  height: 1700px;
+  contain: content;
+  margin-right: 50px;
+  float: right;
+}
+.p3Continuer{
+border:1px solid gainsboro;
+background-color:gainsboro;
+border-radius: 20px;
+width: 100px;
+height: 30px;
+text-align: center;
+}
+
+.p3TexteObjectif{
+font-size: small;
+}
+
+.p3ContainerDevelopper{
+flex-direction: row;
+justify-content: space-between;
+}
+
+.dev, .suscit, .obten{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.suscit{
+  padding-right: 160px;
+}
+
+.obten{
+  padding-right: 110px;
+}
+
+.blocIn{
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 350px;
+  height: 110px;
+  box-shadow: 1px 1px 1px 1px gainsboro;
+}
+
+.blocIn:focus{
+  border: 2px solid black;
+}
+
+.blocInsideTexte{
+  font-size: 14px;
+}
+
+.blocVide{
+  width: 350px;
+  height: 110px;
+}
+
+.bckgBudget{
+  background-color: rgb(201, 224, 250);
+  width: 80%;
+  height: 180px;
+  border-radius: 20px;
+}
+
+.p3ContainBudget{
+  width:60%;
+  margin-left: 200px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.p3ContainBudget2{
+  width:60%;
+  margin-left: 200px;
+  margin-top: -20px;
+}
+
+.p3ButtonInfo{
+  margin-left: 100px;
+  margin-top: -20px;
+}
+
+.p3EnSavoirPlus{
+  float: right;
+  margin-top: -40px;
+  margin-right: 40px;
+}
+
+.p3ButtonEnSavP{
+  background-color: white;
+  font-weight: bold;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.p3ButtonEnSavP:hover{
+  background: rgba(199, 194, 194, 0.7);
+}
+
+a:link{
+text-decoration: none;
+}
+
+.p3NouveauGroupe{
+  display: block;
+  background-color: #F2F3F4;
+  border-radius: 20px; 
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-size: medium;
+}
+
+.utcGroupe{
+  color: #B3B6B7;
+  font-size:14px;
+}
+
+.utcGroupe:hover{
+color: black;
+font-weight: bold;
+}
+
+.p3Publier{
+  display: block;
+  background-color: red;
+  border-radius: 20px;
+  width: 300px;
+  height: 35px;
+  margin-top: 1500px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: large;  
+}
+
+.p3Publier:hover{
+ background: rgba(99, 19, 19, 0.7);
+}
+
+.p3FooterEnd{
+  font-size: small;
+}
+
+.p4ContainerProfil{
+  border: 1px dotted rgb(216, 216, 216);
+  background-color: #ecedee;
+  border-radius: 20px;
+  width: 700px;
+  height: 400px;
+  margin:auto;
+  margin-top: 50px;
+}
+
+.p4ImgA{
+  width: 130px;
+  height: auto;
+  margin-left: 41%;
+  margin-top: 46%;
+  background-color:whitesmoke;
+  border-radius: 100%;
+}
+
+.p4ImgPlus{
+  width: 30px;
+  margin-top: 40%;
+  margin-left: 32%;
+  background-color:whitesmoke;
+  border-radius: 50%;
+}
+
+.p4ImgPlus:hover{
+  background-color: #ecedee;
+}
+
+.p4MarieR{
+  font-size: 40px;
+  text-align: center;
+}
+
+.p4Email{
+  text-align: center;
+  color: #B3B6B7;
+  font-size: 15px;
+}
+
+.p4Abonnement{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.p4PartaModif{
+  background-color: #d1d6d8;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+}
